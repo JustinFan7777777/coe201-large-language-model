@@ -1,0 +1,13 @@
+[project]
+name = "coe201-lab6"
+version = "0.1.0"
+description = "Lab 6: Building a Mini-Transformer"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>2.0",
+    "numpy",
+    "matplotlib",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"

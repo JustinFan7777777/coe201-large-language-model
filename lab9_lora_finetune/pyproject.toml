@@ -1,0 +1,20 @@
+[project]
+name = "lab9"
+version = "0.1.0"
+description = "Lab 9: LoRA & Fine-Tuning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "peft",
+    "datasets",
+    "matplotlib",
+    "numpy",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

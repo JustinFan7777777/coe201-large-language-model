@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the chemical symbol for water?",
+    "choices": ["H2O", "CO2", "NaCl", "O2"],
+    "answer": 0
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": 1
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "choices": ["Heart", "Liver", "Skin", "Brain"],
+    "answer": 2
+  },
+  {
+    "question": "Who wrote the novel '1984'?",
+    "choices": ["George Orwell", "Ernest Hemingway", "Jane Austen", "Mark Twain"],
+    "answer": 0
+  },
+  {
+    "question": "What is the value of 2 + 2?",
+    "choices": ["3", "4", "5", "6"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the largest population?",
+    "choices": ["USA", "India", "China", "Russia"],
+    "answer": 2
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "choices": ["90C", "100C", "110C", "120C"],
+    "answer": 1
+  },
+  {
+    "question": "Which programming language is known for its use in data science?",
+    "choices": ["Java", "C++", "Python", "Go"],
+    "answer": 2
+  },
+  {
+    "question": "What year did World War II end?",
+    "choices": ["1943", "1944", "1945", "1946"],
+    "answer": 2
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "choices": ["Osaka", "Kyoto", "Tokyo", "Nagoya"],
+    "answer": 2
+  }
+]

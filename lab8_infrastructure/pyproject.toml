@@ -1,0 +1,18 @@
+[project]
+name = "lab8"
+version = "0.1.0"
+description = "Lab 8: Triton Introduction and Vector Addition"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "triton",
+    "matplotlib",
+    "pandas",
+    "pytest"
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

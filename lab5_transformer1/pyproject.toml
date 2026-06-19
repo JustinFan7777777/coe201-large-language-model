@@ -1,0 +1,15 @@
+[project]
+name = "coe201-lab5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>2.0",
+    "torch>2.0",
+    "matplotlib>=3.7",
+    "transformers",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"

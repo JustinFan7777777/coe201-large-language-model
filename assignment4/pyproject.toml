@@ -1,0 +1,15 @@
+[project]
+name = "coe201-assignment3"
+version = "0.1.0"
+description = "COE201 Assignment 3: Labs 8-12 Coding Problems"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "pytest>=7.0.0",
+    "matplotlib>=3.5.0",
+    "triton>=2.1.0"
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.sustech.edu.cn/pypi/web/simple"
+default = true

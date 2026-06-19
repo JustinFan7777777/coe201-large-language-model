@@ -1,0 +1,20 @@
+[project]
+name = "lab13"
+version = "0.1.0"
+description = "Lab 13: Vision Language Models"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate",
+    "transformers",
+    "torch",
+    "pillow",
+    "opencv-python",
+    "qwen-vl-utils",
+    "openai",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

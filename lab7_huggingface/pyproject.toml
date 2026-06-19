@@ -1,0 +1,17 @@
+[project]
+name = "lab7"
+version = "0.1.0"
+description = "Lab 7: Hugging Face Practice & Prompt Engineering"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "matplotlib",
+    "numpy",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

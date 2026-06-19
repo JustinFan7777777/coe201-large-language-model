@@ -1,0 +1,22 @@
+[project]
+name = "lab11"
+version = "0.1.0"
+description = "Lab 11: Retrieval-Augmented Generation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "numpy",
+    "scipy",
+    "docling",
+    "opencv-python-headless",
+    "langchain-text-splitters",
+    "rich",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
